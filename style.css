@@ -1,0 +1,34 @@
+body {
+  width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+form {
+  margin: auto;
+  width: 300px;
+}
+.new-todo {
+  display: flex;
+  flex-direction: column;
+  border: 1 px solid black;
+  padding: 30px;
+}
+#input {
+  height: 30px;
+  margin-bottom: 10px;
+}
+#btn {
+  height: 30px;
+  background-color: rgb(8, 133, 18);
+  color: white;
+  font-size: 16px;
+}
